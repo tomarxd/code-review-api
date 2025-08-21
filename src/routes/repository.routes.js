@@ -25,4 +25,10 @@ router.delete('/:id',
   repositoryController.deleteRepository
 );
 
+// Get pull requests for a repository
+router.get('/:id/pulls', 
+  validate(schemas.id, 'params'), 
+  repositoryController.getRepositoryPullRequests
+);
+
 module.exports = router;
