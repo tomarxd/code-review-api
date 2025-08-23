@@ -17,7 +17,6 @@ An AI-powered backend service that analyzes GitHub pull requests and provides in
 - **Cache**: Redis
 - **AI**: OpenAI GPT-4 API
 - **Authentication**: JWT with GitHub OAuth
-- **Testing**: Jest, Supertest
 
 ## Quick Start
 
