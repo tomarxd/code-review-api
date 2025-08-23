@@ -33,7 +33,7 @@ An AI-powered backend service that analyzes GitHub pull requests and provides in
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone <repo-url>
    cd code-review-api
 
 
